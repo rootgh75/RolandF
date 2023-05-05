@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Space+Grotesk:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 0 30px;
+    color: #99272D;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px 4.98px 9.45px rgba(12, 8, 8, 0.1);
+}
+.navbar img{
+    width: 120px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    display: none;
+   
+}
+.navbar ul li{
+    list-style: none;
+    margin: 25px 10px;
+    font-size: 20px;
+}
+.hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    color:black;
+    padding: 20px;
+
+}
+.hero-container .intros{
+margin: 30px 0;
+}
+.intros h1{
+    font-size: 45px;
+    color: #99272D;
+    
+}
+.intros h2{
+    color: #99272D;
+}
+
+.intros p{
+    margin: 20px 0;
+}
+.underline{
+    width: 220px;
+    height: 3px;
+    background-color:#99272D;
+}
+
+.intros .hero-btn{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    background-color: #99272D;
+    color: aliceblue;
+
+}
+.hero-btn:hover{
+    opacity: 0.7;
+}
+.intros a{
+    color: white;
+    text-decoration: none;
+}
+.hero-container img{
+    width: 100%;
+    
+}
+
+.practice h2{
+    padding: 10px;
+    color: #99272D;
+    text-align: center;
+    font-size: 36px;
+}
+.practice-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.practice-area .card{
+    width: 350px;
+    margin:30px 20px ;
+
+   
+}
+.practice-area img{
+    width: 100%;
+    border-radius: 5px ;
+}
+.card h3{
+    color: #99272D;
+    margin: 5px 0;
+}
+.get-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    flex-direction: column;
+    background-color:#99272D;
+    color: white;
+    padding: 20px;
+}
+.get-container a{
+    color: white;
+}
+.get-container p{
+    margin-top: 40px;
+}
+
+@media screen and (min-width:600px) {
+    .hero-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    
+    }
+    .intros{
+        width: 35%;
+        margin-right: 100px;
+    }
+    .hero-container img{
+        margin-left: 50px;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: row;
+        
+       
+    }
+  }
+.layers-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.our-lawyer{
+    padding: 10px 50px;
+    border: 1px solid #99272D;
+    text-align: center;
+}
+.lawyers img{
+    width: 100%;
+    
+}
+.card .star img{
+    width: 15px;
+}
+.lawyers h2{
+    font-size: 32px;
+    color: #99272D;
+    text-align: center;
+    text-decoration: overline;
+}
+.lawyers{
+    background-color: #CECFD0;
+    padding: 20px;
+}
